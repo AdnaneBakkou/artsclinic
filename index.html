@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Art's-clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="">
+      <ul>
+        <li class="logo">Art’s Clinic
+        </li>
+        <li class="btn"><span class="fas fa-bars"></span></li>
+        <div class="items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </div>
+        <li class="search-icon">
+          <input type="search" placeholder="Search">
+          <label class="icon">
+            <span class="fas fa-search"></span>
+          </label>
+        </li>
+      </ul>
+    </nav>
+
+    <script>
+      $('nav ul li.btn span').click(function () {
+        $('nav ul div.items').toggleClass("show");
+        $('nav ul li.btn span').toggleClass("show");
+      });
+    </script>
+  </header>
+  <section id="sec1">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1 class="h11">
+        Art’s Clinic
+      </h1>
+
+      <a href="#sec2" class="btn">
+        Voir plus
+      </a>
+
+
+    </div>
+  </section>
+  <section id="sec2">
+    <div class="container">
+      <div id="tet">
+        <h1 class="h2">
+
+          Profile Directeur :
+        </h1>
+        <p class="p1">
+          Dr : moulay Mourad Sebbar <br>
+
+          ​
+          Doctorat en médecine dentaire 1989 Madrid . <br>
+
+          Diplôme national en orthopédie dento-faciale/orthodontie <br>
+
+          Diplôme en radiologie maxillo-faciale 1992 Madrid , Espagne <br>
+
+          Master européen en technique DAMON. Madrid. Espagne. <br>
+
+          Master européen d’orthodontie invisible. INVISALIGN. Malaga. Espagne. <br>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="sec3">
+    <div class="container">
+      <div class="row">
+
+
+
+        <div class="col">
+
+
+          <p class="pp text-center">
+            Art’s Clinic est un établissement de pointe, dédié à différentes spécialisations dentaires qui offre<br> aux
+            patients un haut niveau de service et un plateau technique équipé des dernières technologies <br> (scanner
+            dernière génération, prise d’empreinte dentaire numérique, prothèse numérique) à chaque<br> étape du plan
+            d’un traitement.
+            Les progrès importants que réalise notre profession nous permettent de<br> vous accompagner au quotidien
+            pour une bonne hygiène dentaire, des soins parfaitement adaptés avec <br> le souci permanent de la meilleure
+            esthétique dentaire.
+          </p>
+        </div>
+        <div class="col">
+
+
+          <img class="img" src="img/logo-art.png" width="140%" alt="">
+        </div>
+      </div>
+
+
+  </section>
+  <section id="form">
+    <div class="container">
+
+      <div class="container py-5"></div>
+      <h1 class="h2">
+        Nos Specialités :
+      </h1>
+      <div class="row">
+
+
+
+        <div class="col-lg-4">
+          <div class="image1"> </div>
+          <h1 class=" p2 display-4 mb-5 form12"> LE PARODONTISTE</h1>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="image2"> </div>
+          <h1 class="p2 display-4 mb-5 form12"> L’ORTHODONTISTE </h1>
+        </div>
+        <div class="col-lg-4 ">
+          <div class="image3"> </div>
+          <h1 class="p2 display-4 mb-5 form12"> LE CHIRURGIEN MAXILLO-FACIAL </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+  <section id="form">
+    <div class="container">
+
+      <div class="container py-5"></div>
+      <h1 class="h2">
+        Nos Medecins :
+      </h1>
+      <div class="row">
+
+
+
+        <div class="col-lg-4">
+          <div class="image"> </div>
+          <h1 class=" p2 display-4 mb-5 form12"> Dr . Caroline</h1>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="imagee"> </div>
+          <h1 class="p2 display-4 mb-5 form12"> Dr . ADREA </h1>
+        </div>
+        <div class="col-lg-4 ">
+          <div class="imageee"> </div>
+          <h1 class="p2 display-4 mb-5 form12"> Dr . Adan </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+  <section id="section">
+    <div class="contact-section">
+      <h1 class="h22">
+       Votre rendez-vous
+      </h1>
+      <div class="border"></div>
+      <form class="contact-form" action="index.html" method="POST" >
+        <input class="contact-form-text" type="text" placeholder="Your name">
+        <input class="contact-form-text" type="email" placeholder="Your email">
+        <input class="contact-form-text" type="text" placeholder="Your number">
+        <textarea class="contact-form-text" placeholder="Your message"></textarea>
+        <input type="submit" class="contact-form-btn" value="send">
+      </form>
+    </div>
+
+  </section>
+  <section>
+
+  </section>
+_
+<footer >
+<p>
+  tous les droits reservés &copy;
+  2020
+</p>
+</footer>
+</body>
+
+</html>
